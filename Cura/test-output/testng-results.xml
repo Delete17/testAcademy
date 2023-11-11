@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-11T15:53:52 IST" name="Default suite" finished-at="2023-11-11T15:54:31 IST" duration-ms="38708">
+    <groups>
+    </groups>
+    <test started-at="2023-11-11T15:53:52 IST" name="Default test" finished-at="2023-11-11T15:54:31 IST" duration-ms="38708">
+      <class name="automate1.cura_loginTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:automate1.cura_loginTest@52bf72b5]" started-at="2023-11-11T15:53:52 IST" name="launchBrowser" finished-at="2023-11-11T15:54:23 IST" duration-ms="30500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="LoginNegativeTC()[pri:1, instance:automate1.cura_loginTest@52bf72b5]" started-at="2023-11-11T15:54:23 IST" name="LoginNegativeTC" finished-at="2023-11-11T15:54:25 IST" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginNegativeTC -->
+        <test-method signature="LoginPositiveTC()[pri:2, instance:automate1.cura_loginTest@52bf72b5]" started-at="2023-11-11T15:54:25 IST" name="LoginPositiveTC" finished-at="2023-11-11T15:54:26 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPositiveTC -->
+        <test-method signature="MakeAppointment()[pri:3, instance:automate1.cura_loginTest@52bf72b5]" started-at="2023-11-11T15:54:26 IST" name="MakeAppointment" finished-at="2023-11-11T15:54:31 IST" duration-ms="5049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MakeAppointment -->
+        <test-method signature="confirmation()[pri:4, instance:automate1.cura_loginTest@52bf72b5]" started-at="2023-11-11T15:54:31 IST" name="confirmation" finished-at="2023-11-11T15:54:31 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmation -->
+      </class> <!-- automate1.cura_loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
