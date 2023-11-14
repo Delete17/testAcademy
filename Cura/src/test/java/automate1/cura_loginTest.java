@@ -69,6 +69,7 @@ public class cura_loginTest {
 		String confirm =driver.findElement(By.cssSelector(".lead")).getText();
 		String cfn = "Please be informed that your appointment has been booked as following:";
 		Assert.assertEquals(confirm, cfn);
+		Assert.assertEquals(false, false);
 	}
 
 }
